@@ -1,12 +1,19 @@
 # Dependency directories
 node_modules/
-.DS_Store
+*.DS_Store
 
 # Distribution directories
 dist/
 
-# Optional npm cache directory
+# Optional npm cache directory & different VSC related
 .npm
+npm-debug.log*
+.vscode
+*.tgz
+
 
 # Optional eslint cache
 .eslintcache
+
+
+
