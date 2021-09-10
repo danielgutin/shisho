@@ -1,0 +1,35 @@
+.booklist {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(25%, 25rem));
+    gap: 1rem;
+
+    &.booklist-empty {
+        grid-template-columns: 1fr;
+        text-align: center;
+
+        & .book-list-empty-desc {
+            letter-spacing: 0.2rem;
+            font-size: 1.1rem;
+        }
+    }
+}
+
+/** media Queries for smaller screens **/
+
+@media screen and (max-width: 79.375rem) {
+    .booklist {
+        grid-template-columns: repeat(3, minmax(25%, 25rem));
+    }
+}
+  
+  @media screen and (max-width: 60.625rem) {
+    .booklist {
+        grid-template-columns: repeat(2, minmax(25%, 30rem));
+    }
+  }
+
+  @media screen and (max-width: 40.625rem) {
+    .booklist {
+        grid-template-columns: repeat(1, minmax(25%, 35rem));
+    }
+  }

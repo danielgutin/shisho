@@ -1,0 +1,11 @@
+# Dependency directories
+node_modules/
+
+# Distribution directories
+dist/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache

@@ -1,0 +1,41 @@
+.book-item {
+    position: relative;
+    text-align: center;
+}
+
+.book-cover {
+    height: 15rem;
+    width: 10rem;
+    border-radius: 2px;
+    box-shadow: -2px 6px 19px 0px #7f818e;
+    transition: .3s ease;
+    &:hover {
+     transform: scale(1.03);
+    }
+}
+   
+.book-title {
+    text-overflow: ellipsis;
+    letter-spacing: 0.1rem;
+    white-space: nowrap;
+    overflow: hidden;
+    color: #313235;
+    font-weight: 600;
+}
+
+.book-content {
+    padding: 1rem;
+    color: #313235;
+    overflow: hidden;
+}
+
+.book-description {
+    width: 20rem;
+    margin: 1.2rem auto 0 auto;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
