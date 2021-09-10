@@ -8,7 +8,8 @@ Shisho in Japanese means librarian.
 [Try Shisho now](https://danielgutin.github.io/shisho/)
 
 ### instructions to run locally
-1. clone the repo
-2. install the dependencies using the command ```npm i``` in the project directory
-3. run the project on dev mode using the ```npm run dev``` command
-4. open your browser on ```http://localhost:8000/ ```
+1. Clone the repo
+2. Install the dependencies using the command ```npm i``` in the project directory
+3. Run the project on dev mode using the ```npm run dev``` command
+4. Open your browser on ```http://localhost:8000/ ```
+5. Have fun ! 
