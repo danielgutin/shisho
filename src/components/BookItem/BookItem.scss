@@ -6,8 +6,8 @@
 .book-cover {
     height: 15rem;
     width: 10rem;
-    border-radius: 2px;
-    box-shadow: -2px 6px 19px 0px #7f818e;
+    border-radius: 0.125rem;
+    box-shadow: -0.125rem 0.375rem 1.1875rem 0 #7f818e;
     transition: .3s ease;
     &:hover {
      transform: scale(1.03);

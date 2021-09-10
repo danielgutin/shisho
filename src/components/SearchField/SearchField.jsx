@@ -12,12 +12,11 @@ const SearchField = ({
     <div className="search-field-container">
       <input 
         className="search-field-input" 
-        id="inputid" 
         name="searh-field" 
         type="text" 
         placeholder=" " 
         value={value}
-        onChange={e => onChange(e.target.value)}
+        onChange={e => onChange?.(e.target.value)}
       />
       <label 
         className="search-field-placeholder" 

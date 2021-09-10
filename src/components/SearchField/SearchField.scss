@@ -1,10 +1,10 @@
 .search-field-container{
   position: relative;
-  border:1px solid #bcbaba;
+  border: 0.0625rem solid #bcbaba;
   width: 30%;
   min-width: 25rem;
   margin: 1rem auto;
-  padding-left:12px;
+  padding-left: 0.75rem;
 
   & .search-field-placeholder{
     position: absolute;
@@ -25,7 +25,7 @@
     display: block;
     box-sizing: border-box;
     width: 100%;
-    bottom:0px;
+    bottom: 0;
 
     &:focus { outline: none; }
     &:focus,
@@ -33,7 +33,7 @@
       border-color: transparent;
       & ~ label {
        color:#646669;
-        font-size: 11px;
+        font-size: 0.6875rem;
         top: calc(30% - .5rem);
         transform: translate(0.3rem, 0%);
       }
