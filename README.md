@@ -1,4 +1,4 @@
-![Mokdan](./src/assets/shisho.png)
+![Shisho](./src/assets/shisho.png)
 
 # Shisho - Let Granny find your books
 
