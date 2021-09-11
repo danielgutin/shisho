@@ -6,10 +6,20 @@
     &.booklist-empty {
         grid-template-columns: 1fr;
         text-align: center;
+        width: 100%;
 
-        & .book-list-empty-desc {
-            letter-spacing: 0.2rem;
-            font-size: 1.1rem;
+        & .booklist-empty-container {
+
+            & img {
+                width: 100%;
+                max-width: 25rem;
+            }
+
+            & .book-list-empty-desc {
+                letter-spacing: 0.2rem;
+                font-size: 1.1rem;
+                word-wrap: break-word;
+            }
         }
     }
 }

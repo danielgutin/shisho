@@ -60,7 +60,10 @@ module.exports = {
   plugins: [
     new HtmlWebPackPlugin({
       template: "./src/index.html",
-      favicon: "./src/assets/shisho.png"
+      favicon: "./src/assets/shisho.png",
+      meta: { 
+        viewport: 'width=device-width, initial-scale=1' 
+      }
     }),
     new CleanWebpackPlugin()
   ]

@@ -27,7 +27,7 @@ const BookList = ({
       {/* When book list is empty show empty box with guiding text */}
       { 
         !books?.length && 
-        <div>
+        <div className='booklist-empty-container'>
           <img src={empty_box} alt="Empty box" />
           <p className='book-list-empty-desc'>
             Start typing in order to fill the book׳s box
